@@ -4,7 +4,7 @@ echo $header;
 ?>
 <link rel="stylesheet" href="./assets/css/paginas.css">
 <div>
-    <img src="./assets/img/image.png" alt="">
+    <img src="./assets/img/imagem1.png" alt="">
 </div>
 <br>
    <div class="container">

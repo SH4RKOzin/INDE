@@ -32,7 +32,7 @@ echo $header;
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@mined.gov.mz</p>
+                  <p>ined@ined.com</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -40,7 +40,7 @@ echo $header;
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Telefone:</h4>
-                  <p>+258 21 480 700</p>
+                  <p>+258 00000000</p>
                 </div>
               </div><!-- End Info Item -->
 

@@ -10,6 +10,7 @@ $header = '
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/service.css">
     <link href="./assets/img/inde2.png" rel="icon">
 </head>
 <body>
@@ -20,6 +21,7 @@ $header = '
       </a>
     </p>
   </div>
+  
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -34,14 +36,13 @@ $header = '
                         Sobre a Instituição
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="missao.php">Missão</a></li>
-                        <li><a class="dropdown-item" href="visao.php">Visão</a></li>
-                        <li><a class="dropdown-item" href="valores.php">Valores</a></li>
-                        <li><a class="dropdown-item" href="./assets/pdf/mz-government-gazette-series-i-dated-1987-10-28-no-43 (1).pdf">Estatuto</a></li>
+                        
+                        
+                        
                         <li><a class="dropdown-item" href="atribuicoes.php">Atribuições</a></li>
                         <li><a class="dropdown-item" href="competencias.php">Competencias</a></li>
-                        <li><a class="dropdown-item" href="#">Estrutura Orgânica</a></li>
-                        
+                        <li><a class="dropdown-item" href="estrutura-organica.php">Estrutura Orgânica</a></li>
+                        <li><a class="dropdown-item" href="./assets/pdf/mz-government-gazette-series-i-dated-1987-10-28-no-43 (1).pdf">Estatuto</a></li>
                     </ul>
                 </li>
 
@@ -101,7 +102,7 @@ $footer = '
           <li><a href="missao.php">Missão</a></li>
           <li><a href="visao.php">Visão</a></li>
           <li><a href="./assets/pdf/mz-government-gazette-series-i-dated-1987-10-28-no-43 (1).pdf">Estatuto</a></li>
-          <li><a href="#">Membros do Conselho Consultivo</a></li>
+          <li><a href="estrutura-organica.php">Estrutura Organica</a></li>
         </ul>
       </div>
   
