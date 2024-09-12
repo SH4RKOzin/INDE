@@ -37,13 +37,14 @@ echo $header;
                 <p>O Instituto Nacional do Desenvolvimento da Educação, neste estatuto também designado abreviadamente por INDE, é uma instituição destinada à planificação curricular e à investigação pedagógica, a qual compete no âmbito da política educativa expressa na Lei e Linhas Gerais do Sistema Nacional de Educação.</p>
             </div>
             <div class="col-md-6">
-                <img src="./assets/img/inde2.png" alt="Instituto Nacional do Desenvolvimento da Educação" class="img-fluid">
+                <img class="inde" src="./assets/img/inde2.png" alt="Instituto Nacional do Desenvolvimento da Educação" class="img-fluid">
             </div>
         </div>
     </div>
 
     <div class="container mt-4">
         <h2 class="text-center mb-4">Notícias</h2>
+        <br>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
@@ -90,6 +91,7 @@ echo $header;
         <div class="container">
             <section class="services-container">
                 <h2 class="text-center mb-4">Nossos Serviços</h2>
+                <br>
                 <div class="services-section">
                     <article class="card1">
                         <div class="icon1">
@@ -117,6 +119,7 @@ echo $header;
                 </div>
             </section>
         </div>
+        <br> <br>
     </div>
 </body>
 </html>

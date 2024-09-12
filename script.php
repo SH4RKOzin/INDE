@@ -14,31 +14,42 @@ $header = '
     <link href="./assets/img/inde2.png" rel="icon">
 </head>
 <body>
-  <div class="webmail">
-    <p>
-      <a href="#" class="text-center">
-        <i class="bi bi-envelope-at-fill"></i> Webmail
-      </a>
-    </p>
+
+<div class="verde1">
+  <div class="container">
+    <div class="webmail">
+      <p class="cell">
+        <i class="bi bi-phone"></i> +258 840000000
+      </p>
+      <p class="web">
+        <a href="#" class="web">
+          <i class="bi bi-envelope-at-fill"></i> Webmail
+        </a>
+      </p>
+    </div>
   </div>
-  
+</div>
+
+
+
+<div class="verde">
+  <div class="container">
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo.png" alt="Logo" class="img-fluid">
+            <a class="navbar-brand" href="index.php">
+                <img src="./assets/img/indeNOVO.png" alt="Logo" class="img-fluid">
             </a>
+            
+        <div class="container-fluid">
+            
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Inicio</a>
+                    <a class="nav-link" href="index.php"><b>Inicio</b></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Sobre a Instituição
+                        <b>Sobre a Instituição</b>
                     </a>
                     <ul class="dropdown-menu">
-                        
-                        
-                        
                         <li><a class="dropdown-item" href="atribuicoes.php">Atribuições</a></li>
                         <li><a class="dropdown-item" href="competencias.php">Competencias</a></li>
                         <li><a class="dropdown-item" href="estrutura-organica.php">Estrutura Orgânica</a></li>
@@ -48,21 +59,23 @@ $header = '
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Documentos
+                        <b>Documentos</b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./assets/pdf/mz-government-gazette-series-i-dated-1987-10-28-no-43 (1).pdf">Normas e Regulamentos</a></li>
+                        <li><a class="dropdown-item" href="normas-regulamentos.php"><b>Normas e Regulamentos</b></a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="noticias.php">Notícias</a>
+                    <a class="nav-link" href="noticias.php"><b>Notícias</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.php">Contacto</a>
+                    <a class="nav-link" href="contacto.php"><b>Contacto</b></a>
                 </li>
             </ul>
         </div>
     </nav>
+  </div>
+ </div> 
 ';
 
 
@@ -73,7 +86,7 @@ $footer = '
 <div class="container">
     <div class="row gy-4">
       <div class="col-lg-5 col-md-12 footer-info">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="index.php" class="logo d-flex align-items-center">
           <span>INDE</span>
         </a>
         <p>O Instituto Nacional do Desenvolvimento da Educação, neste estatuto também designado abreviadamente por INDE, é uma instituição destinada à planificação curricular e à investigação pedagógica, a qual compete no âmbito da política educativa expressa na Lei e Linhas Gerais do Sistema Nacional de Educação.</p>
@@ -99,8 +112,8 @@ $footer = '
       <div class="col-lg-2 col-6 footer-links">
         <h4>O INDE</h4>
         <ul>
-          <li><a href="missao.php">Missão</a></li>
-          <li><a href="visao.php">Visão</a></li>
+          <li><a href="atribuicoes.php">Atribuições</a></li>
+          <li><a href="competencias.php">Competencias</a></li>
           <li><a href="./assets/pdf/mz-government-gazette-series-i-dated-1987-10-28-no-43 (1).pdf">Estatuto</a></li>
           <li><a href="estrutura-organica.php">Estrutura Organica</a></li>
         </ul>

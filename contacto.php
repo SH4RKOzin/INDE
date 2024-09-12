@@ -76,7 +76,7 @@ echo $header;
                 <div class="error-message"></div>
                 <div class="sent-message">A sua mensagem foi enviada. Obrigado!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
+              <div class="text-center"><button type="submit" onclick="enviada();">Enviar</button></div>
             </form>
           </div><!-- End Contact Form -->
 
@@ -96,4 +96,8 @@ echo $header;
 require_once 'script.php';
 echo $footer;
 ?>
-    
+      <script>
+   function enviada(){
+       alert("A sua mensagem foi enviada"); 
+    }
+  </script> 
