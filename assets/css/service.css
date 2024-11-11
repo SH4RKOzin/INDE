@@ -1,0 +1,68 @@
+.servicos{
+    background-color: #FFF2A0 ;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+.services-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    text-align: center;
+    }
+    .card1{
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px 20px;
+      padding: 20px 10px ;
+      background-color: #FFF2A0;
+      border-radius: 10px;
+      transition: 0.5s ease;
+    }
+    .card1:hover {
+        background-color: #fffcc6;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transform: scale(1.05); 
+      }
+    .card1 .icon1{
+      font-size: 45px;
+      margin-bottom: 25px;
+      color: var(--verde);
+    }
+    
+    .card1 h2{
+      font-size: 22px;
+      color: #222;
+      margin-bottom: 20px;
+    }
+    .card1 p{
+      font-size: 16px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+      color: var(--preto);
+    }
+   /* .card1 p:hover{
+        font-size: 16px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        color: #fff;
+      }*/
+    .button{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--verde);
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    }
+    .button:hover{
+      background-color: var(--verde);
+      transition: 0.5s ease;
+    }
+    
