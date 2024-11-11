@@ -136,16 +136,56 @@ echo $header;
 
             
         </div>
+<style>
+ .blog-pagination {
+  margin-top: 30px;
+  color: #555555;
+}
+
+.blog-pagination ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.blog-pagination li {
+  margin: 0 5px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.blog-pagination li a {
+  color: var(--preto);
+  padding: 7px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-pagination li.active,
+.blog-pagination li:hover {
+  background: var(--verde);
+  color: #fff;
+}
+
+.blog-pagination li.active a,
+.blog-pagination li:hover a {
+  color: var(--branco);
+}
+
+</style>
+
+
     </div>
-    <nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-center">
-
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-
-  </ul>
-</nav>
+    <div class="blog-pagination">
+          <ul class="justify-content-center">
+            <li class="active"><a href="noticias.php">1</a></li>
+           <li><a href="#">2</a></li>
+           <li><a href="#">3</a></li>
+           <!--  <li><a href="#">3</a></li> -->
+          </ul>
+        </div><!-- End blog pagination -->
 <br><br>
 </body>
 </html>

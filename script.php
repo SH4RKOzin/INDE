@@ -14,8 +14,7 @@ $header = '
     <link href="./assets/img/inde2.png" rel="icon">
 </head>
 <body>
-
-<div class="verde1">
+<div class="verde1" id="verde">
   <div class="container">
     <div class="webmail">
       <p class="cell">
@@ -86,7 +85,7 @@ $footer = '
 <div class="container">
     <div class="row gy-4">
       <div class="col-lg-5 col-md-12 footer-info">
-        <a href="index.php" class="logo d-flex align-items-center">
+        <a href="index.php#verde" class="logo d-flex align-items-center" style="text-decoration: none;">
           <span>INDE</span>
         </a>
         <p>O Instituto Nacional do Desenvolvimento da Educação, neste estatuto também designado abreviadamente por INDE, é uma instituição destinada à planificação curricular e à investigação pedagógica, a qual compete no âmbito da política educativa expressa na Lei e Linhas Gerais do Sistema Nacional de Educação.</p>
